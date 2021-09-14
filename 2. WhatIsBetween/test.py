@@ -15,10 +15,10 @@ class TestStringMethods(test.TestCase):
         self.assertEqual(is_bigger(2, 2), False)
 
     def test_checkNumbersBetween(self):
-        self.assertEqual(between(1, 5), [2, 3, 4])
+        self.assertEqual(between(1, 4), [1, 2, 3, 4])
 
     def test_NoNumbersBetween(self):
-        self.assertEqual(between(1, 2), [])
+        self.assertEqual(between(1, 2), [1, 2])
 
 
 if __name__ == '__main__':

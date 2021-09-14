@@ -1,7 +1,7 @@
 def between(a, b):
     if is_bigger(a, b):
         between_array = []
-        for x in range(a + 1, b):
+        for x in range(a, b + 1):
             between_array.append(x)
         return between_array
 
