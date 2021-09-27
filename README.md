@@ -18,3 +18,5 @@ https://www.codewars.com/kata/5865918c6b569962950002a1
 https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa
 ### 9. SquareEveryDigit
 https://www.codewars.com/kata/546e2562b03326a88e000020
+### 10. AcrosticReader
+https://www.codewars.com/kata/59b843b58bcb7766660000f6
