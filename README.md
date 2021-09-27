@@ -14,3 +14,5 @@ https://www.codewars.com/kata/55a70521798b14d4750000a4
 https://www.codewars.com/kata/5a3dd29055519e23ec000074
 ### 7. AllStarCodeChallenge#18
 https://www.codewars.com/kata/5865918c6b569962950002a1
+### 8. CategorizeNewMember
+https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa
