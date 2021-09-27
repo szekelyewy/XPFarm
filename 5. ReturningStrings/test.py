@@ -18,6 +18,5 @@ class TestStringMethods(test.TestCase):
         self.assertNotEqual(greet('Shaun'), 'Hello, NotShaun how are you doing today?')
 
 
-
 if __name__ == '__main__':
     test.main()
