@@ -1,6 +1,6 @@
 import unittest as test
 
-from main import check_type, check_vowel_lenght, vowel_change, check_vowel_list
+from main import check_type, check_vowel_length, vowel_change, check_vowel_list
 
 
 class TestStringMethods(test.TestCase):
@@ -12,10 +12,10 @@ class TestStringMethods(test.TestCase):
         self.assertEqual(check_type(2), False)
 
     def test_IfVowelOnlyOneLetter(self):
-        self.assertEqual(check_vowel_lenght('s'), True)
+        self.assertEqual(check_vowel_length('s'), True)
 
     def test_IfVowelNotOnlyOneLetter(self):
-        self.assertEqual(check_vowel_lenght('ss'), False)
+        self.assertEqual(check_vowel_length('ss'), False)
 
     def test_IfVowelGiven(self):
         self.assertEqual(check_vowel_list('a'), True)

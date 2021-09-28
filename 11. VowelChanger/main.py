@@ -4,7 +4,7 @@ vowel_list = ['a', 'e', 'o', 'u', 'i']
 def vowel_change(txt, vow):
     new_txt = ''
     if check_type(txt):
-        if check_vowel_lenght(vow):
+        if check_vowel_length(vow):
             if check_vowel_list(vow):
                 for char in txt:
                     if not check_vowel_list(char):
@@ -20,7 +20,7 @@ def check_type(txt):
     return False
 
 
-def check_vowel_lenght(vow):
+def check_vowel_length(vow):
     if len(vow) == 1:
         return True
     return False
