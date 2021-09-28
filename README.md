@@ -20,3 +20,5 @@ https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa
 https://www.codewars.com/kata/546e2562b03326a88e000020
 ### 10. AcrosticReader
 https://www.codewars.com/kata/59b843b58bcb7766660000f6
+### 11. VowelChanger
+https://www.codewars.com/kata/597754ba62f8a19c98000030
