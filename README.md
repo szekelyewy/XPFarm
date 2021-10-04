@@ -24,3 +24,5 @@ https://www.codewars.com/kata/59b843b58bcb7766660000f6
 https://www.codewars.com/kata/597754ba62f8a19c98000030
 ### 12. SumOfCubes
 https://www.codewars.com/kata/59a8570b570190d313000037
+### 13. IsThisATriangle
+https://www.codewars.com/kata/56606694ec01347ce800001b
