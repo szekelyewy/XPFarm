@@ -22,3 +22,5 @@ https://www.codewars.com/kata/546e2562b03326a88e000020
 https://www.codewars.com/kata/59b843b58bcb7766660000f6
 ### 11. VowelChanger
 https://www.codewars.com/kata/597754ba62f8a19c98000030
+### 12. SumOfCubes
+https://www.codewars.com/kata/59a8570b570190d313000037
