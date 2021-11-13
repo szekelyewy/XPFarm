@@ -46,3 +46,6 @@ def row_win(input_board, player_number):
                 continue
         if win:
             return win
+
+def col_win(input_board, player):
+    return True
