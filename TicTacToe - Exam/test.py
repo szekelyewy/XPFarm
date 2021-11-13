@@ -32,3 +32,12 @@ class TestClass(unittest.TestCase):
     0|0|0
     """
         self.assertNotEqual(output_board, main.set_up_board(input_board))
+
+    def test_empty_spaces(self):
+        input_board = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+        self.assertEqual([(0, 0), (0, 1), (0, 2), (1, 0), (1, 1), (1, 2), (2, 0), (2, 1), (2, 2)],
+                         main.empty_space(input_board))
+
+    def test_no_empty_spaces(self):
+        input_board = [[1, 1, 1], [1, 1, 1], [1, 1, 1]]
+        self.assertEqual([], main.empty_space(input_board))

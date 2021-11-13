@@ -12,3 +12,7 @@ def set_up_board(input_board):
     """
     a = [item for sub in input_board for item in sub]
     return board_template.format(*a)
+
+
+def empty_space(input_board):
+    return True
