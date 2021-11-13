@@ -22,3 +22,7 @@ def empty_space(input_board):
             if input_board[i][j] == 0:
                 empty_spaces.append((i, j))
     return empty_spaces
+
+
+def pick_random(input_board, player):
+    return True
