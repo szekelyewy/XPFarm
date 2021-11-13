@@ -15,4 +15,10 @@ def set_up_board(input_board):
 
 
 def empty_space(input_board):
-    return True
+    empty_spaces = []
+    for i in range(len(input_board)):
+        for j in range(len(input_board)):
+
+            if input_board[i][j] == 0:
+                empty_spaces.append((i, j))
+    return empty_spaces
