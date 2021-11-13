@@ -14,7 +14,7 @@ of the empty spaces :heavy_check_mark:
 2. Set up the initial board :heavy_check_mark:
 3. Check if there is more empty space :heavy_check_mark:
    1. If not check who won or if draw
-4. Random pick for the next player :small_orange_diamond:
+4. Random pick for the next player :heavy_check_mark:
 5. Check if the player won
    1. Check rows
    2. Check columns
@@ -22,3 +22,5 @@ of the empty spaces :heavy_check_mark:
 6. Next player comes
 7. If no winner after 9 steps the game ended with tie/draw
 ## DevOps
+- `empty_space()` could be a list comprehension
+- Change `1` and `2` inputs to `X` and `O`

@@ -1,3 +1,8 @@
+import random
+
+import numpy as np
+
+
 def init_board():
     return [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 
@@ -25,4 +30,8 @@ def empty_space(input_board):
 
 
 def pick_random(input_board, player):
-    return True
+    choices = empty_space(input_board)
+    choice = random.choice(choices)
+    numpy_board = np.array(input_board)
+    numpy_board[choice] = player
+    return numpy_board
