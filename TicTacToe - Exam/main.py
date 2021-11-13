@@ -47,5 +47,13 @@ def row_win(input_board, player_number):
         if win:
             return win
 
+
 def col_win(input_board, player):
-    return True
+    for x in range(len(input_board)):
+        win = True
+        for y in range(len(input_board)):
+            if input_board[y][x] != player:
+                win = False
+                continue
+        if win:
+            return win
