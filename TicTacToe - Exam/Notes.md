@@ -8,12 +8,13 @@ https://en.wikipedia.org/wiki/Tic-tac-toe
 - If there is an empty space in the board, `empty_space()` should return with an array of the x and y coordinate 
 of the empty spaces :heavy_check_mark:
 - If there is no empty space in the board `empty_space()` should return with an empty array :heavy_check_mark:
+- Random picker test :small_orange_diamond:
 ## Process
 1. Create the initial board :heavy_check_mark:
 2. Set up the initial board :heavy_check_mark:
-3. Check if there is more empty space :small_orange_diamond:
+3. Check if there is more empty space :heavy_check_mark:
    1. If not check who won or if draw
-4. Random pick for the next player
+4. Random pick for the next player :small_orange_diamond:
 5. Check if the player won
    1. Check rows
    2. Check columns
