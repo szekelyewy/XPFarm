@@ -31,15 +31,23 @@ of the empty spaces :heavy_check_mark:
 1. Create the initial board :heavy_check_mark:
 2. Set up the initial board :heavy_check_mark:
 3. Check if there is more empty space :heavy_check_mark:
-   1. If not check who won or if draw
+   1. If not check who won or if draw :x:
 4. Random pick for the next player :heavy_check_mark:
 5. Check if the player won :heavy_check_mark:
    1. Check rows :heavy_check_mark:
    2. Check columns :heavy_check_mark:
    3. Check diagonals :heavy_check_mark:
-6. Next player comes
-7. If no winner after 9 steps the game ended with tie/draw
+6. Next player comes :x:
+7. If no winner after 9 steps the game ended with tie/draw :x:
 ## DevOps
+- Can the game be played in a bigger board (e.g.: 4x4 matrix)?
+- Do we need this template (with `-+-+-`) or can we use a simple array to display the board?
+
+
 - `empty_space()` could be a list comprehension
 - Change `1` and `2` inputs to `X` and `O`
-- `row_win()` and `col_win()`  could be in one method
+- `row_win()`, `col_win()` and `diag_win()` has duplicated lines -> maybe it can be refactored
+- Needs a new method which can check summarize if there is a winner in 
+`row_win()`, `col_win()` and `diag_win()`
+- Needs a new method which can drive the game (make playable by 2 bots)
+- The initial board could be a `np.array()` so it wouldn't need to be changed later in `pick_random()`
