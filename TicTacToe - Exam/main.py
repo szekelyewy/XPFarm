@@ -37,5 +37,12 @@ def pick_random(input_board, player):
     return numpy_board
 
 
-def row_win(input_board, player):
-    return True
+def row_win(input_board, player_number):
+    for element_x in range(len(input_board)):
+        win = True
+        for element_y in range(len(input_board)):
+            if input_board[element_x, element_y] != player_number:
+                win = False
+                continue
+        if win:
+            return win

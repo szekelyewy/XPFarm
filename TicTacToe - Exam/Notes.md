@@ -9,12 +9,12 @@ https://en.wikipedia.org/wiki/Tic-tac-toe
 of the empty spaces :heavy_check_mark:
 - If there is no empty space in the board `empty_space()` should return with an empty array :heavy_check_mark:
 - Random picker test with seeded random value (makes the random value always the same) :heavy_check_mark:
-- If a row is filled with the same chars the player won :small_orange_diamond:
-  - Test for player 1
-  - Test for player 2
-- If no row is filled with the same chars there is no row win :small_orange_diamond:
-  - Test for player 1
-  - Test for player 2
+- If a row is filled with the same chars the player won :heavy_check_mark:
+  - Test for player 1 :heavy_check_mark:
+  - Test for player 2 :heavy_check_mark:
+- If no row is filled with the same chars there is no row win :heavy_check_mark:
+  - Test for player 1 :heavy_check_mark:
+  - Test for player 2 :heavy_check_mark:
 ## Process
 1. Create the initial board :heavy_check_mark:
 2. Set up the initial board :heavy_check_mark:
@@ -22,7 +22,7 @@ of the empty spaces :heavy_check_mark:
    1. If not check who won or if draw
 4. Random pick for the next player :heavy_check_mark:
 5. Check if the player won:small_orange_diamond:
-   1. Check rows :small_orange_diamond:
+   1. Check rows :heavy_check_mark:
    2. Check columns
    3. Check diagonals
 6. Next player comes
