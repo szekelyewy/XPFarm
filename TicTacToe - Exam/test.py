@@ -21,3 +21,14 @@ class TestClass(unittest.TestCase):
     0|0|0
     """
         self.assertEqual(output_board, main.set_up_board(input_board))
+
+    def test_negative_set_up_board(self):
+        input_board = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+        output_board = """
+    0|0|0
+    -----
+    0|0|0
+    -----
+    0|0|0
+    """
+        self.assertNotEqual(output_board, main.set_up_board(input_board))

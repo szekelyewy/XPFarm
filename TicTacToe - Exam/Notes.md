@@ -3,11 +3,11 @@ https://en.wikipedia.org/wiki/Tic-tac-toe
 ## Guardians
 - Initial board should be an empty (filled with 0s) 3x3 matrix :heavy_check_mark:
 - Initial board negative test if not an empty matrix :heavy_check_mark:
-- Initial board should be formatted as it is in the PDF file :small_orange_diamond:
-- Initial board negative test, if not looks like as it is in the PDF file
+- Initial board should be formatted as it is in the PDF file :heavy_check_mark:
+- Initial board negative test, if not looks like as it is in the PDF file :heavy_check_mark:
 ## Process
 1. Create the initial board :heavy_check_mark:
-2. Set up the initial board :small_orange_diamond:
+2. Set up the initial board :heavy_check_mark:
 3. Check if there is more empty space
    1. If not check who won or if draw
 4. Random pick for the next player

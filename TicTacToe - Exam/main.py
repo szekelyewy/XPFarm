@@ -3,4 +3,15 @@ def init_board():
 
 
 def set_up_board(input_board):
-    return True
+    board_template = """
+    {}|{}|{}
+    -+-+-
+    {}|{}|{}
+    -+-+-
+    {}|{}|{}
+    """
+    a = ""
+    for sub in input_board:
+        for item in sub:
+            a += str(item)
+    return board_template.format(*a)
