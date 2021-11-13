@@ -84,11 +84,11 @@ class TestClass(unittest.TestCase):
         self.assertFalse(main.col_win(input_board, 1))
 
     def test_diag_win_player_1(self):
-        input_board = np.array([[1, 0, 0], [1, 0, 0], [1, 0, 0]])
+        input_board = np.array([[1, 0, 0], [0, 1, 0], [0, 0, 1]])
         self.assertTrue(main.diag_win(input_board, 1))
 
     def test_diag_win_player_2(self):
-        input_board = np.array([[0, 2, 0], [0, 2, 0], [0, 2, 0]])
+        input_board = np.array([[0, 0, 2], [0, 2, 0], [2, 0, 0]])
         self.assertTrue(main.diag_win(input_board, 2))
 
     def test_no_diag_win_player_1(self):

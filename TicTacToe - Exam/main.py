@@ -60,4 +60,17 @@ def col_win(input_board, player):
 
 
 def diag_win(input_board, player):
-    return True
+    win = True
+    y = 0
+    for x in range(len(input_board)):
+        if input_board[x, x] != player:
+            win = False
+    if win:
+        return win
+    win = True
+    if win:
+        for x in range(len(input_board)):
+            y = len(input_board) - 1 - x
+            if input_board[x, y] != player:
+                win = False
+    return win
