@@ -57,3 +57,7 @@ def col_win(input_board, player):
                 continue
         if win:
             return win
+
+
+def diag_win(input_board, player):
+    return True

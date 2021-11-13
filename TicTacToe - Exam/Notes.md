@@ -21,6 +21,12 @@ of the empty spaces :heavy_check_mark:
 - If no column is filled with the same chars there is no row win :heavy_check_mark:
   - Test for player 1 :heavy_check_mark:
   - Test for player 2 :heavy_check_mark:
+- If a diagonal is filled with the same chars the player won :small_orange_diamond:
+  - Test for player 1 :small_orange_diamond:
+  - Test for player 2 :small_orange_diamond:
+- If no diagonal is filled with the same chars there is no row win :small_orange_diamond:
+  - Test for player 1 :small_orange_diamond:
+  - Test for player 2 :small_orange_diamond:
 ## Process
 1. Create the initial board :heavy_check_mark:
 2. Set up the initial board :heavy_check_mark:
@@ -30,7 +36,7 @@ of the empty spaces :heavy_check_mark:
 5. Check if the player won :small_orange_diamond:
    1. Check rows :heavy_check_mark:
    2. Check columns :heavy_check_mark:
-   3. Check diagonals
+   3. Check diagonals :small_orange_diamond:
 6. Next player comes
 7. If no winner after 9 steps the game ended with tie/draw
 ## DevOps
