@@ -50,3 +50,19 @@ class TestClass(unittest.TestCase):
         output_board = np.array([[0, 0, 0], [0, 0, 0], [1, 0, 0]])
         random.seed(0)
         self.assertTrue((output_board == main.pick_random(input_board, 1)).all())
+
+    def test_row_win_player_1(self):
+        input_board = np.array([[1, 1, 1], [0, 0, 0], [0, 0, 0]])
+        self.assertTrue(main.row_win(input_board, 1))
+
+    def test_row_win_player_2(self):
+        input_board = np.array([[0, 0, 0], [2, 2, 2], [0, 0, 0]])
+        self.assertTrue(main.row_win(input_board, 2))
+
+    def test_no_row_win_player_1(self):
+        input_board = np.array([[1, 0, 1], [0, 0, 0], [0, 0, 0]])
+        self.assertFalse(main.row_win(input_board, 1))
+
+    def test_no_row_win_player_2(self):
+        input_board = np.array([[2, 2, 0], [0, 0, 0], [0, 0, 0]])
+        self.assertFalse(main.row_win(input_board, 1))

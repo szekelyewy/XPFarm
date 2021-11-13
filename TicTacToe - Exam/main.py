@@ -35,3 +35,7 @@ def pick_random(input_board, player):
     numpy_board = np.array(input_board)
     numpy_board[choice] = player
     return numpy_board
+
+
+def row_win(input_board, player):
+    return True
