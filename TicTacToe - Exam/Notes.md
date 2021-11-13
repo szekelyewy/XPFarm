@@ -1,5 +1,6 @@
 # Tic-Tac-Toe Game
 ## Guardians
+- Initial board should be an empty (filled with 0s) 3x3 matrix
 
 ## Process
 1. Set up the initial board
