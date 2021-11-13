@@ -10,8 +10,5 @@ def set_up_board(input_board):
     -+-+-
     {}|{}|{}
     """
-    a = ""
-    for sub in input_board:
-        for item in sub:
-            a += str(item)
+    a = [item for sub in input_board for item in sub]
     return board_template.format(*a)
