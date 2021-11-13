@@ -48,4 +48,4 @@ class TestClass(unittest.TestCase):
     def test_pick_random(self):
         input_board = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
         output_board = np.array([[0, 0, 0], [0, 0, 0], [1, 0, 0]])
-        self.assertFalse((output_board == main.pick_random(input_board, 1)).all())
+        self.assertTrue((output_board == main.pick_random(input_board, 1)).all())
