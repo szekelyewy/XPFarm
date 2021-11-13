@@ -36,3 +36,4 @@ of the empty spaces :heavy_check_mark:
 ## DevOps
 - `empty_space()` could be a list comprehension
 - Change `1` and `2` inputs to `X` and `O`
+- `row_win()` and `col_win()`  could be in one method
