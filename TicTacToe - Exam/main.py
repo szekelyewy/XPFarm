@@ -1,2 +1,2 @@
 def init_board():
-    return True
+    return [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
